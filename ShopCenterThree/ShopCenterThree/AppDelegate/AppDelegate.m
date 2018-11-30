@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "STBasicTabBarController.h"
+#import "DSLaunchAnimateViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:DEVICE_SCREEN_FRAME];
+    self.window.rootViewController = [[STBasicTabBarController alloc]init];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
