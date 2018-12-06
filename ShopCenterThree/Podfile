@@ -18,4 +18,5 @@ pod 'JKCategories'
 pod 'WMPageController'
 pod 'DZNEmptyDataSet'
 pod 'JPush'
+pod 'SDCycleScrollView'
 end

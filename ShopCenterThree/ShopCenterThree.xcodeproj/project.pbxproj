@@ -226,6 +226,12 @@
 		3C09CA4321AE343D0049674C /* login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C09CA2621AE343D0049674C /* login@2x.png */; };
 		3C09CA4421AE343D0049674C /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C09CA2721AE343D0049674C /* logo@2x.png */; };
 		3C09CA4821AE3AF10049674C /* TJ_HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C09CA4721AE3AF10049674C /* TJ_HomeViewController.m */; };
+		3C09CA4B21B0DF090049674C /* TJ_HomeCollectionViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C09CA4A21B0DF090049674C /* TJ_HomeCollectionViewHeaderView.m */; };
+		3C09CA4E21B6241B0049674C /* TJ_HomeHeaderSortOneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C09CA4D21B6241B0049674C /* TJ_HomeHeaderSortOneView.m */; };
+		3C09CA5121B624360049674C /* TJ_HomeHeaderSortTwoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C09CA5021B624360049674C /* TJ_HomeHeaderSortTwoView.m */; };
+		3C09CA5421B624990049674C /* TJ_HomeHeaderSortThreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C09CA5321B624990049674C /* TJ_HomeHeaderSortThreeView.m */; };
+		3C09CA5721B673F10049674C /* TJ_HomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C09CA5621B673F10049674C /* TJ_HomeCollectionViewCell.m */; };
+		3C09CA5E21B67E0B0049674C /* TJ_SortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C09CA5D21B67E0B0049674C /* TJ_SortViewController.m */; };
 		3C1F148321AD455900EBA3E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F148221AD455900EBA3E7 /* AppDelegate.m */; };
 		3C1F148921AD455900EBA3E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1F148721AD455900EBA3E7 /* Main.storyboard */; };
 		3C1F148B21AD455A00EBA3E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C1F148A21AD455A00EBA3E7 /* Assets.xcassets */; };
@@ -566,6 +572,18 @@
 		3C09CA2721AE343D0049674C /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
 		3C09CA4621AE3AF10049674C /* TJ_HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJ_HomeViewController.h; sourceTree = "<group>"; };
 		3C09CA4721AE3AF10049674C /* TJ_HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJ_HomeViewController.m; sourceTree = "<group>"; };
+		3C09CA4921B0DF090049674C /* TJ_HomeCollectionViewHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJ_HomeCollectionViewHeaderView.h; sourceTree = "<group>"; };
+		3C09CA4A21B0DF090049674C /* TJ_HomeCollectionViewHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJ_HomeCollectionViewHeaderView.m; sourceTree = "<group>"; };
+		3C09CA4C21B6241B0049674C /* TJ_HomeHeaderSortOneView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJ_HomeHeaderSortOneView.h; sourceTree = "<group>"; };
+		3C09CA4D21B6241B0049674C /* TJ_HomeHeaderSortOneView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJ_HomeHeaderSortOneView.m; sourceTree = "<group>"; };
+		3C09CA4F21B624360049674C /* TJ_HomeHeaderSortTwoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJ_HomeHeaderSortTwoView.h; sourceTree = "<group>"; };
+		3C09CA5021B624360049674C /* TJ_HomeHeaderSortTwoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJ_HomeHeaderSortTwoView.m; sourceTree = "<group>"; };
+		3C09CA5221B624990049674C /* TJ_HomeHeaderSortThreeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJ_HomeHeaderSortThreeView.h; sourceTree = "<group>"; };
+		3C09CA5321B624990049674C /* TJ_HomeHeaderSortThreeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJ_HomeHeaderSortThreeView.m; sourceTree = "<group>"; };
+		3C09CA5521B673F10049674C /* TJ_HomeCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJ_HomeCollectionViewCell.h; sourceTree = "<group>"; };
+		3C09CA5621B673F10049674C /* TJ_HomeCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJ_HomeCollectionViewCell.m; sourceTree = "<group>"; };
+		3C09CA5C21B67E0B0049674C /* TJ_SortViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJ_SortViewController.h; sourceTree = "<group>"; };
+		3C09CA5D21B67E0B0049674C /* TJ_SortViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJ_SortViewController.m; sourceTree = "<group>"; };
 		3C1F147E21AD455900EBA3E7 /* ShopCenterThree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopCenterThree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C1F148121AD455900EBA3E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3C1F148221AD455900EBA3E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -633,6 +651,7 @@
 		3C09C7DC21AE31490049674C /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				3C09CA5821B67D130049674C /* Sort */,
 				3C09C7DD21AE31490049674C /* Home */,
 				3C09C85421AE314A0049674C /* ShoppingCart(购物车) */,
 				3C09C86A21AE314A0049674C /* Basic */,
@@ -729,6 +748,16 @@
 				3C09C81A21AE314A0049674C /* SliderView */,
 				3C09C81F21AE314A0049674C /* STConfirmAnOrderHeadView.m */,
 				3C09C82021AE314A0049674C /* STGoodsDetailsView.m */,
+				3C09CA4921B0DF090049674C /* TJ_HomeCollectionViewHeaderView.h */,
+				3C09CA4A21B0DF090049674C /* TJ_HomeCollectionViewHeaderView.m */,
+				3C09CA4C21B6241B0049674C /* TJ_HomeHeaderSortOneView.h */,
+				3C09CA4D21B6241B0049674C /* TJ_HomeHeaderSortOneView.m */,
+				3C09CA4F21B624360049674C /* TJ_HomeHeaderSortTwoView.h */,
+				3C09CA5021B624360049674C /* TJ_HomeHeaderSortTwoView.m */,
+				3C09CA5221B624990049674C /* TJ_HomeHeaderSortThreeView.h */,
+				3C09CA5321B624990049674C /* TJ_HomeHeaderSortThreeView.m */,
+				3C09CA5521B673F10049674C /* TJ_HomeCollectionViewCell.h */,
+				3C09CA5621B673F10049674C /* TJ_HomeCollectionViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1225,6 +1254,39 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		3C09CA5821B67D130049674C /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				3C09CA5B21B67D610049674C /* Controller */,
+				3C09CA5A21B67D510049674C /* View */,
+				3C09CA5921B67D400049674C /* Model */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
+		3C09CA5921B67D400049674C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3C09CA5A21B67D510049674C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3C09CA5B21B67D610049674C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C09CA5C21B67E0B0049674C /* TJ_SortViewController.h */,
+				3C09CA5D21B67E0B0049674C /* TJ_SortViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		3C1F147521AD455900EBA3E7 = {
 			isa = PBXGroup;
 			children = (
@@ -1621,6 +1683,7 @@
 				3C09C92C21AE314B0049674C /* STGoodsToolBar.m in Sources */,
 				3C09C97121AE314B0049674C /* STBasicTableViewController.m in Sources */,
 				3C09C97621AE314B0049674C /* XTJAboutViewController.m in Sources */,
+				3C09CA4E21B6241B0049674C /* TJ_HomeHeaderSortOneView.m in Sources */,
 				3C09C96321AE314B0049674C /* XTJShoppingCartViewController.m in Sources */,
 				3C09C9C321AE314B0049674C /* FHCTopLineCollectionViewCell.m in Sources */,
 				3C09C9A921AE314B0049674C /* User.m in Sources */,
@@ -1651,6 +1714,7 @@
 				3C09C98021AE314B0049674C /* XTJSettingViewController.m in Sources */,
 				3C09CA4821AE3AF10049674C /* TJ_HomeViewController.m in Sources */,
 				3C09C93121AE314B0049674C /* STGoodsDetailsView.m in Sources */,
+				3C09CA5E21B67E0B0049674C /* TJ_SortViewController.m in Sources */,
 				3C09C91421AE314B0049674C /* STPersonalMessageViewController.m in Sources */,
 				3C09C97821AE314B0049674C /* XTJMyCollectionShopViewController.m in Sources */,
 				3C09C97C21AE314B0049674C /* XTJMyCollectionGoodsViewController.m in Sources */,
@@ -1665,7 +1729,9 @@
 				3C09C97921AE314B0049674C /* XTJPersonalInfoViewController.m in Sources */,
 				3C09C97F21AE314B0049674C /* XTJMyOrderNonPaymentViewController.m in Sources */,
 				3C09C9B021AE314B0049674C /* NSString+Verify.m in Sources */,
+				3C09CA5121B624360049674C /* TJ_HomeHeaderSortTwoView.m in Sources */,
 				3C09C98421AE314B0049674C /* XTJOrderModel.m in Sources */,
+				3C09CA5721B673F10049674C /* TJ_HomeCollectionViewCell.m in Sources */,
 				3C09C91621AE314B0049674C /* STAddOrEditAddressViewController.m in Sources */,
 				3C09C9A521AE314B0049674C /* XTJFindPassWordViewController.m in Sources */,
 				3C09C92921AE314B0049674C /* STEditAddressView.m in Sources */,
@@ -1689,12 +1755,14 @@
 				3C09C92521AE314B0049674C /* STManageAddressCell.m in Sources */,
 				3C09C97D21AE314B0049674C /* XTJMineViewController.m in Sources */,
 				3C09C91221AE314B0049674C /* STHomeViewController.m in Sources */,
+				3C09CA5421B624990049674C /* TJ_HomeHeaderSortThreeView.m in Sources */,
 				3C09C92221AE314B0049674C /* STHomeHeadView.m in Sources */,
 				3C09C91D21AE314B0049674C /* STGoodsModel.m in Sources */,
 				3C09C9AF21AE314B0049674C /* UIButton+ImageLabel.m in Sources */,
 				3C09C92E21AE314B0049674C /* XTJSliderScrollView.m in Sources */,
 				3C09C9AA21AE314B0049674C /* userModel.m in Sources */,
 				3C09C97221AE314B0049674C /* STBasicViewController.m in Sources */,
+				3C09CA4B21B0DF090049674C /* TJ_HomeCollectionViewHeaderView.m in Sources */,
 				3C09C9CA21AE314B0049674C /* TJNetworkReachabilityManager.m in Sources */,
 				3C09C96E21AE314B0049674C /* STBasicTabBarController.m in Sources */,
 				3C09C96421AE314B0049674C /* XTJAggregateBar.m in Sources */,
